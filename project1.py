@@ -30,4 +30,3 @@ if __name__ == "__main__":
     for element in prompts:
         results.append(get_response(element))
     write_responses(results,sys.argv[2])
-    print(f'Worked so far! :D')
