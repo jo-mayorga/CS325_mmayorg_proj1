@@ -4,7 +4,7 @@ Python script that takes in a text file containing prompts (seperated by lines) 
 
 Requirements:
 
--Create a conda environment using requirements.yaml
+-Create a conda environment using the supplied requirements.yaml
 
 -Have Ollama and phi-3:mini installed
 
