@@ -19,4 +19,4 @@ For instance, "py project1.py prompts.txt responses.txt" reads in the file "prom
 
 
 
-Written by Jo Mayorga (2024)
+(Written by Jo Mayorga)
