@@ -1,10 +1,14 @@
 Python script that takes in a text file containing prompts (seperated by lines) and outputs them to another text file.
 
+
+
 Requirements:
 
 -Create a conda environment using requirements.yaml
 
 -Have Ollama and phi-3:mini installed
+
+
 
 Usage:
 
