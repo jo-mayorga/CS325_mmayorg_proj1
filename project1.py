@@ -24,10 +24,14 @@ def get_response(prompt):
 #takes two arguments, name of prompts text file, name of output textfile
 if __name__ == "__main__":
     #open text file supplied in arg1 and put info from that file into prompts
+    print(f'Reading from {sys.argv[1]}...\n')
     prompts = open_prompts(sys.argv[1])
     #feed each prompt to the model and store in results
+    print(f'Feeding prompts from {sys.argv[1]} to phi3:mini...\n')
     results = []
     for element in prompts:
         results.append(get_response(element))
     #write the responses stored in results to text file
+    print(f'Writing results to {sys.argv[2]}...\n')
     write_responses(results,sys.argv[2])
+    print('Done!\n')
