@@ -16,7 +16,7 @@ In your terminal of choice with the activated environment, run "py project1.py [
 
 For instance, "py project1.py prompts.txt responses.txt" reads in the file "prompts.txt" and outputs the model's response to "response.txt".
 
-
+The format of the responses in the output file is "Response n. \n[response text here]" followed by the next response.
 
 
 (Written by Jo Mayorga)
