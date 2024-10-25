@@ -1,22 +1,4 @@
-Python script that takes in a text file containing prompts (seperated by lines) and outputs them to another text file.
+#Web Scraper
+Simple web scraper that outputs comments on ebay feedback pages to a txt file.
 
 
-
-Requirements:
-
--Create a conda environment using the supplied requirements.yaml
-
--Have Ollama and phi-3:mini installed
-
-
-
-Usage:
-
-In your terminal of choice with the activated environment, run "py project1.py [input file name] [output file name]".
-
-For instance, "py project1.py prompts.txt responses.txt" reads in the file "prompts.txt" and outputs the model's response to "response.txt".
-
-The format of the responses in the output file is "Response n. \n[response text here]" followed by the next response.
-
-
-(Written by Jo Mayorga)
